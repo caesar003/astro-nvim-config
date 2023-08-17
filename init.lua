@@ -20,8 +20,8 @@ return {
   -- Set colorscheme to use
   -- colorscheme = "astrodark",
   -- colorscheme = "catppuccin-macchiato",
-  -- colorscheme = "catppuccin-mocha",
-  colorscheme = "moonfly",
+  colorscheme = "catppuccin-mocha",
+  -- colorscheme = "moonfly",
   -- colorscheme = "kanagawa-nvim",
   -- colorscheme = "rose-pine",
 
