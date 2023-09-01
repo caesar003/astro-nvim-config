@@ -38,6 +38,6 @@ return {
     -- ["<esc>"] = false,
   },
   v = {
-    ["<leader>y"] = { 'y+"h' }
+    ["<leader>y"] = { 'y+"h', name = "Copy to system clipboard" }
   },
 }
