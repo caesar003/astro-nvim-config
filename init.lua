@@ -18,12 +18,16 @@ return {
   },
 
   -- Set colorscheme to use
-  -- colorscheme = "astrodark",
-  -- colorscheme = "catppuccin-macchiato",
-  -- colorscheme = "catppuccin-mocha",
-  colorscheme = "moonfly",
-  -- colorscheme = "kanagawa-nvim",
   -- colorscheme = "rose-pine",
+  -- colorscheme = "tokyonight",
+  -- colorscheme = "tokyonight-night",
+  -- -"- colorscheme =  "tokyonight-storm",
+  -- colorscheme = "tokyonight-day",
+  -- colorscheme = "tokyonight-moon",
+  -- colorscheme = "catppuccin",
+  -- colorscheme = "nightfly",
+  -- colorscheme = "onedark",
+  colorscheme = "nordic",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {

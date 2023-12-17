@@ -2,12 +2,40 @@
 return {
   -- use mason-lspconfig to configure LSP installations
   {
+    "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
+    "neovim/nvim-lspconfig",
     -- overrides `require("mason-lspconfig").setup(...)`
     opts = function(_, opts)
       -- add more things to the ensure_installed table protecting against community packs modifying it
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
-        -- "lua_ls",
+       "lua_ls",
+      "actionlint",
+      "ansible-language-server",
+      "ansible-lint",
+      "antlers-language-server",
+      "black",
+      "bash-language-server",
+      "blade-formatter",
+      "docker-compose-language-service",
+      "dockerfile-language-server",
+      "dot-language-server",
+      "eslint_d",
+      "flake8",
+      "hadolint",
+      -- "html-lsp",
+      -- "intelephense",
+      -- "nginx-language-server",
+      -- "php-debug-adapter",
+      -- "phpstan",
+      "pint",
+      "prettierd",
+      "pyright",
+      "rustywind",
+      "shellcheck",
+      "shfmt",
+      "stylua",
+      "tailwindcss-language-server",
       })
     end,
   },
@@ -29,7 +57,9 @@ return {
     opts = function(_, opts)
       -- add more things to the ensure_installed table protecting against community packs modifying it
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
-        -- "python",
+        "python",
+        "php",
+        "bash"
       })
     end,
   },
