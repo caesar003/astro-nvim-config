@@ -36,6 +36,7 @@ return {
       "shfmt",
       "stylua",
       "tailwindcss-language-server",
+        -- "lua_ls",
       })
     end,
   },
@@ -60,6 +61,7 @@ return {
         "python",
         "php",
         "bash"
+        -- "python",
       })
     end,
   },
