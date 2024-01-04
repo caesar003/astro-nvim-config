@@ -6,10 +6,10 @@ return {
       --- @usage 'auto'|'main'|'moon'|'dawn'
       variant = "moon",
       --- @usage 'main'|'moon'|'dawn'
-      dark_variant = "dawn",
+      dark_variant = "auto",
       bold_vert_split = false,
       dim_nc_background = false,
-      disable_background = false,
+      disable_background = true,
       disable_float_background = false,
       disable_italics = false,
 
