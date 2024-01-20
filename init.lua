@@ -29,8 +29,8 @@ return {
   -- colorscheme = "onedark",
   -- colorscheme = "nordic",
   -- colorscheme = "astrodark",
-  -- colorscheme = "catppuccin",
-  colorscheme = "rose-pine",
+  colorscheme = "catppuccin",
+  -- colorscheme = "rose-pine",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
