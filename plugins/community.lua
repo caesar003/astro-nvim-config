@@ -1,12 +1,11 @@
 return {
   "AstroNvim/astrocommunity",
-  -- { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.colorscheme.nightfox-nvim", enabled = true },
   { import = "astrocommunity.colorscheme.kanagawa-nvim", enabled = true },
   { import = "astrocommunity.colorscheme.rose-pine" },
   { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.colorscheme.github-nvim-theme"}, 
-  { -- further customize the options set by the community
+  { import = "astrocommunity.colorscheme.github-nvim-theme"},
+  {
     "catppuccin",
     opts = {
       transparent_background = true,
@@ -24,7 +23,6 @@ return {
       },
     },
   },
-  -- { import = "astrocommunity.completion.copilot-lua" },
   { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
   {
     "m4xshen/smartcolumn.nvim",
