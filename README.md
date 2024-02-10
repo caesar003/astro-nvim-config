@@ -4,11 +4,13 @@ A user configuration template for [AstroNvim](https://github.com/AstroNvim/Astro
 
 ## 🛠️ Installation
 
-#### Make a backup of your current nvim and shared folder
+#### Make a backup of your current nvim and shared folder (not required but recommended)
 
 ```shell
 mv ~/.config/nvim ~/.config/nvim.bak
 mv ~/.local/share/nvim ~/.local/share/nvim.bak
+mv ~/.local/state/nvim ~/.local/state/nvim.bak
+mv ~/.cache/nvim ~/.cache/nvim.bak
 ```
 
 #### Clone AstroNvim
@@ -26,7 +28,7 @@ You can also just clone this repository directly if you do not want to track you
 #### Clone the repository
 
 ```shell
-git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim/lua/user
+git clone https://github.com/caesar003/astro-nvim-config ~/.config/nvim/lua/user
 ```
 
 #### Start Neovim
