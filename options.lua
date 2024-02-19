@@ -16,5 +16,6 @@ return {
     icons_enabled = true,
     ui_notifications_enabled = true,
     resession_enabled = false,
+    pyhon3_host_prog = "/usr/bin/python3",
   },
 }
