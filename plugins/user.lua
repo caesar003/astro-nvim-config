@@ -1,4 +1,6 @@
 return {
+  { "sonjapeterson/1989.vim" },
+  { "theHamsta/nvim-dap-virtual-text" },
   -- You can also add new plugins here as well:
   -- Add plugins, the lazy syntax
   -- "andweeb/presence.nvim",

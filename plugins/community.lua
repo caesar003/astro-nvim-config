@@ -4,7 +4,13 @@ return {
   { import = "astrocommunity.colorscheme.kanagawa-nvim", enabled = true },
   { import = "astrocommunity.colorscheme.rose-pine" },
   { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.colorscheme.github-nvim-theme"},
+  { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.go" },
+  -- { import = "astrocommunity.pack.php" },
+  { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.markdown-and-latex" },
+  -- { import = "astrocommunity.colorscheme.github-nvim-theme"},
   {
     "catppuccin",
     opts = {

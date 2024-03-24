@@ -6,6 +6,7 @@ return {
     signcolumn = "auto",
     wrap = false,
     background = "dark",
+    cursorline = false,
   },
   g = {
     mapleader = " ",
@@ -16,6 +17,10 @@ return {
     icons_enabled = true,
     ui_notifications_enabled = true,
     resession_enabled = false,
-    pyhon3_host_prog = "/usr/bin/python3",
+    python3_host_prog = "/usr/bin/python3",
+    neovide_transparency = 0.9,
+    neovide_background_color = "#0f1117",
+    neovide_cursor_vfx_mode = "sonicboom", -- railgun | torpedo | pixiedust | sonicboom | ripple | wireframe
+    loaded_perl_provider = 0,
   },
 }
