@@ -18,7 +18,7 @@ return {
         -- status.component.mode(),
         status.component.mode {
           mode_text = {
-            padding = { left = 1, right = 1 }
+            padding = { left = 1, right = 1 },
           },
         },
         status.component.git_branch(),

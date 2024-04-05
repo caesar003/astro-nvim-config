@@ -6,7 +6,8 @@ return {
     signcolumn = "auto",
     wrap = false,
     background = "dark",
-    cursorline = false,
+    cursorline = true,
+    cursorcolumn = true,
   },
   g = {
     mapleader = " ",
@@ -22,5 +23,7 @@ return {
     neovide_background_color = "#0f1117",
     neovide_cursor_vfx_mode = "sonicboom", -- railgun | torpedo | pixiedust | sonicboom | ripple | wireframe
     loaded_perl_provider = 0,
+    loaded_ruby_provider = 0,
+    disable_bg = 1,
   },
 }

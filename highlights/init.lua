@@ -1,4 +1,6 @@
-return { -- this table overrides highlights in all themes
-  -- Normal = { bg = "#000000" },
+return {
+  NonText = { bg = "none", ctermbg = "none" },
+  Normal = { bg = "none", ctermbg = "none" },
   Visual = { bg = "#ffa500", fg = "#000000" },
+  CursorLine = { ctermbg = "darkgray" },
 }

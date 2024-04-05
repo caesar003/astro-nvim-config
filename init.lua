@@ -18,7 +18,8 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "rose-pine",
+  colorscheme = "catppuccin-frappe",
+  -- colorscheme = "rose-pine",
   -- colorscheme = "1989",
   diagnostics = {
     virtual_text = true,
